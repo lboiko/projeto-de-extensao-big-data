@@ -83,7 +83,9 @@ if paises_selecionados:
     if colunas_selecionadas:
         # Filtrar o DataFrame com base nas colunas selecionadas
         dados_filtrados = dados_filtrados[colunas_selecionadas]
-        
+
+
+
         # Exibir os dados filtrados
         st.markdown(f"""
     <div style="background-color: #942525; padding: 5px; border-radius: 10px; color: white;">
@@ -165,6 +167,8 @@ if processo_pesquisado:
 st.markdown("---")
 
 # Gráfico em barras
+grafico_filtrados = df[df['País de Origem'].isin(paises_selecionados)] #verifica se os valores na coluna país de origem estão presentes na coleção paises_selecionados
+
 
 st.markdown(f"""
     <div style="background-color: #942525; padding: 5px; border-radius: 10px; color: white;"">
@@ -174,7 +178,7 @@ st.markdown(f"""
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-quantidade_por_categoria = dados_filtrados.groupby('País de Origem')['Quantidade Total de Itens'].sum().reset_index()
+quantidade_por_categoria = grafico_filtrados.groupby('País de Origem')['Quantidade Total de Itens'].sum().reset_index()
 
 fig_quantidade = px.bar(quantidade_por_categoria, 
                         x='País de Origem', 
