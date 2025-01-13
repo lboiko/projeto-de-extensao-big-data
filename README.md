@@ -1,5 +1,4 @@
-<div align=center> <a href="url"><img src="https://i.imgur.com/yZzNMqK.jpeg" height=300 width=600/></a></div>
-  
+
 # <div align=center> Projeto de extensão </div>
 
 <div align=center> Em construção para obtenção de nota final.
@@ -11,7 +10,7 @@ Este projeto faz parte da disciplina "Tópicos de Big Data em Python" da gradua�
 
 ## ✅ Conclusão
 
-Previsto para novembro de 2024.
+Novembro de 2024.
 
 ## 👨🏼‍💻 Grupo
 
