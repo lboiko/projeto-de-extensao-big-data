@@ -1,13 +1,10 @@
 
 # <div align=center> Projeto de extensão </div>
 
-<div align=center> Em construção para obtenção de nota final.
+<div align=center>
   
-Este projeto faz parte da disciplina "Tópicos de Big Data em Python" da graduação tecnológica em Análise e Desenvolvimento de Sistemas da Universidade Estácio de Sá.</div>
-
----
-## 📃 Descrição
-
+Projeto final da disciplina "Tópicos de Big Data em Python" da graduação tecnológica em Análise e Desenvolvimento de Sistemas da Universidade Estácio de Sá, para obtenção de nota final.</div>
+--
 ## ✅ Conclusão
 
 Novembro de 2024.
